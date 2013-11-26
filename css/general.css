@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 0;
+	font-family: Helvetica Neue, sans-serif;
+	
+	
+}
+
+
+form {
+	width: 30%;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+.logo {
+	width: 20%;
+	display: inline-block;
+	float: right;
+	margin-right: 30%;
+	margin-top: 7%;
+	
+	
+	
+}
+
+header {
+		
+	width: 100%;
+	
+	background: #99ccff;
+	padding-top: 40px;
+	padding-bottom: 37px;
+	padding-left: 10%;
+	padding-right: 5%;
+	}
+
+.field {
+	margin-bottom: 15px;
+}
+
+h1 {
+	
+	
+	color: black;
+	font-size: 2.2em;
+	font-family: Helvetica Neue, sans-serif;
+	font-weight: 100;
+	
+    
+	margin-bottom: 30px;
+	
+}
+
+h2 {
+	margin-left: 10%;
+	font-weight: 200;
+	margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 30em) {
+	
+.logo {
+	width: 70%;
+	margin-right: 15%;
+	margin-bottom: 30px;
+	margin-top: 3%;
+	
+}
+h1 {
+	font-size: 2em;
+	text-align: center;
+	
+}
+h2 {
+	
+}
+form {
+	width: 80%;
+}
+header {
+		
+	
+	padding-left: 10%;
+	padding-right: 10%;
+	}	
+	
+	
+	
+
+}
+
+@media only screen and (min-width: 30em) and (max-width: 46em) {
+
+form {
+	width: 50%;
+}
+	
+.logo {
+	width: 30%;
+	margin-right: 5%;
+}
+
+
+
+
+
+
+}
+
+
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+.input-text {
+	
+	border: 1px solid #ccc;
+	padding: 0.4rem;
+	background-image: linear-gradient(to bottom, #efefef, #fff);
+	border-radius: 2px;
+	width: 100%;
+}
+
+input {
+	font-size: 1rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	cursor: pointer;
+}
+
+input + label {
+	display: inline;
+}
+
+textarea {
+	max-width: 100%;
+	height: 7em;
+}
+
+button {
+	font-size: 1.2rem;
+	padding: 0.5rem 1rem;
+	
+	background-image: linear-gradient(to top, #c8e4fc, #99ccff);
+	color: black;
+	cursor: pointer;
+	margin-bottom: 200px;
+	margin-top: 30px;
+}
+
+.error {
+	color: #f33;
+	display: block;
+}
+.input-error {
+	border: 2px solid #f33;
+}
+
+/*@media only screen and (min-width: 60em)  {
+.left {
+	width: 40%;
+	float: left;
+	display: inline-block;
+}
+.right {
+	width: 40%;
+	float: right;
+	display: inline-block;
+}
+form {
+	width: 100%;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+}-->

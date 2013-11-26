@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form</title>
+<link href="css/general.css" rel="stylesheet">
+
+</head>
+
+<body>
+ 
+      <header>
+      
+      
+     <h1>Science Fiction & Fantasy Book Club</h1>
+      </header>
+<img src="img/booklogo.svg" alt="logo" class="logo">
+<h2> Application Form</h2>
+
+<form>
+	<div class="left">
+    <div class="field">
+		<label for="name">
+        Name
+        <strong class="error">Please fill in your name</strong>
+        </label>
+		<input type="text" id="name" class="input-text input-error" required>
+
+	</div>
+    
+
+	<div class="field">
+		<label for="email">E-mail address</label>
+		<input type="email" id="email" class="input-text" maxlength="256" required>
+
+	</div>
+    <div class="field">
+		<label for="phone">Phone Number</label>
+		<input type="tel" id="phone" class="input-text" maxlength="20" minlength="10">
+
+	</div>
+    
+    
+    
+    
+    <div class="field">
+		<label for="address">
+        Address
+        <strong class="error">Please fill in your address</strong>
+        </label>
+		<input type="text" id="address" class="input-text input-error" required>
+
+	</div>
+    <div class="field">
+		<label for="city">
+        City        
+        </label>
+		<input type="text" id="city" class="input-text" required>
+
+	</div>
+    
+    
+    <div class="field">
+    	<label for="province">your province</label>
+        <select id="province" required>
+        <option></option>
+        	<option>AB</option>
+            <option>BC</option>
+            <option>MB</option>
+            <option>NB</option>
+            <option>NL</option>
+            <option>NS</option>
+            <option>ON</option>
+            <option>PE</option>
+            <option>QC</option>
+            <option>SC</option>
+            </select>
+    </div >
+    
+    <div class="field">
+		<label for="postal code">Postal Code</label>
+		<input type="text" id="postal code" class="input-text" maxlength="7" required>
+
+	</div>
+    </div>
+    
+    <div class="right">
+    
+     <div class="field">
+		<label for="time">
+        What time of day would be best to meet?       
+        </label>
+		<input type="time" id="time" class="input-text">
+
+	</div>
+    
+       
+    
+    <div class="field">
+		<label for="number of books">How many books have you read this year?</label>
+		<input type="number" id="number of books" pattern="[0-9]*" min="1">
+
+	</div>
+    
+    
+    <div class="field">
+    <label for="why">Describe your favourite book & author</label>
+    <textarea for="why" class="input-text"></textarea>
+    </div>
+    
+    
+    <div class="field">
+    <fieldset>
+    	<legend>How much do you love this genre?</legend>
+        <input type="radio" id="extreme-poor" name="satisfaction">
+    <label for="extreme-poor"> Read it rarely</label>
+    
+    <input type="radio" id="dissatisfied" name="satisfaction" >
+    <label for="dissatisfied"> Read it often</label>
+    
+    <input type="radio" id="neutral" name="satisfaction" >
+    <label for="neutral"> Read it daily</label>
+    
+    <input type="radio" id="extreme-good" name="satisfaction" >
+    <label for="extreme-good"> Read it hourly</label>
+    
+    <input type="radio" id="extreme-good" name="satisfaction" >
+    <label for="extreme-good"> Can't live without it</label>
+     
+     
+    
+    </fieldset>
+
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+	
+    <button type="submit">submit</button>
+</div>
+
+
+</form>
+
+</body>
+</html>
